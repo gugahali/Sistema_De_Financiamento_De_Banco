@@ -11,7 +11,6 @@ public class Main {
     Main(double ValorImovelUsuario, int ParcelasCasa){
         this.valorImovel = ValorImovelUsuario;
         this.parcelas = ParcelasCasa;
-        return;
     }
 
     double Valorparcelas(){
