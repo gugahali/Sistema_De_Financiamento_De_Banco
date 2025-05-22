@@ -5,7 +5,6 @@ public class Main {
     //Atributos
     double valorImovel;
     int parcelas;
-    double jurosMensais;
 
     //Metodos
     Main(double ValorImovelUsuario, int ParcelasCasa){
@@ -19,6 +18,7 @@ public class Main {
 
 
     public static void main(String[] args){
+
         Scanner sc = new Scanner(System.in);  
         System.out.println(("Qual o valor da casa?"));
         double ValorCasaUsuario = sc.nextDouble();
